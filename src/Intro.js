@@ -12,7 +12,7 @@ class Intro extends Component {
           <Row className="intro" center="xs" middle="xs">
             <Col xs={8}>
               <Typist>
-                <span> Hi, my name is Daniel. I like to go on biking adventures. </span>
+                <span> Hi, my name is Daniel. I like to go on bikepacking adventures. </span>
               </Typist>
             </Col>
           </Row>

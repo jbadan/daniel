@@ -6,7 +6,7 @@ import { Row, Col } from 'react-flexbox-grid';
 class Bike extends Component {
   render() {
     return (
-
+      <div>
         <div className="cycle-outer">
   			<div className="cycle-wrapper">
   				<div className="cycle-body">
@@ -70,6 +70,8 @@ class Bike extends Component {
   				</div>
   			</div>
   		</div>
+      <i className="fa fa-angle-double-down fa-4x" aria-hidden="true"></i>
+      </div>
     );
   }
 }

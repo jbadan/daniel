@@ -1,14 +1,6 @@
-.banner {
-	position: fixed;
-	width: 100%;
-	background: #000;
-	top: 0;
-	color: #FFF;
-	font-family: sans-serif;
-	text-align: center;
-	padding: 10px;
-	font-weight: lighter;
-	font-size: 13px;
+.fa-angle-double-down{
+	color: #F2FFE3;
+	margin-top: 40%;
 }
 
 .cycle-outer{
@@ -16,7 +8,7 @@
 	height: 260px;
 	position: absolute;
 	top: 50%;
-	margin-top: -160px;
+	margin-top: -100px;
 	left: 50%;
 	margin-left: -267px;
 }

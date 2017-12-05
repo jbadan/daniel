@@ -16,14 +16,21 @@ body {
 
 .intro{
   background: #FF8B00;
-  height: 40vh;
+  height: 50vh;
   color: #F2FFE3;
   font-size: 4vh;
 }
 
-.bike{
+.bikeRow{
   background: #FF8B00;
-  height: 40vh;
-  color: #F2FFE3;
-  font-size: 4vh;
+  height: 50vh;
+}
+.questionCard{
+  background: #F2FFE3;
+  height: 20vh;
+  width: 100%;
+  font-size: 3vh;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8;
 }

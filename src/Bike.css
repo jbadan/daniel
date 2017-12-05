@@ -185,9 +185,22 @@ ul{
 	-webkit-transform: rotate(-8deg);
 	-moz-transform: rotate(-8deg);
 }
+.salsa{
+	font-family: 'Dancing Script', cursive;
+	position: absolute;
+	color: #FFA500;
+	letter-spacing: 2px;
+	font-size: 13px;
+	margin: 0px 0 0 208px;
+	transform: rotate(-50deg);
+	-webkit-transform: rotate(-50deg);
+	-moz-transform: rotate(-50deg);
+	z-index: 10;
+
+}
 .front-frame{
 	background: black;
-	width: 8px;
+	width: 10px;
 	height: 160px;
 	position: absolute;
 	z-index: 2;

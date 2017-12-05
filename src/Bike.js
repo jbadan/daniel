@@ -13,6 +13,7 @@ class Bike extends Component {
 					</div>
 					<div className="front-wheel-frame"></div>
 					<div className="top-frame"></div>
+          <div className="salsa">Salsa</div>
 					<div className="front-frame">
 						<div className="bottle-holder">
 							<span></span>

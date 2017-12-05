@@ -1,9 +1,29 @@
-* {
-  margin:0; 
-  padding:0;
-  box-sizing:border-box;
+body {
+  margin: 0;
+  padding: 0;
+  background: #FF8B00;
 }
+.Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite;
+  }
+
+@keyframes blink {
+  0% {opacity: 1; }
+  50% {opacity: 0; }
+  100% {opacity: 1; }
+}
+
 .intro{
   background: #FF8B00;
-  height: 20vh;
+  height: 40vh;
+  color: #F2FFE3;
+  font-size: 4vh;
+}
+
+.bike{
+  background: #FF8B00;
+  height: 40vh;
+  color: #F2FFE3;
+  font-size: 4vh;
 }

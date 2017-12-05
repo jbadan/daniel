@@ -8,7 +8,15 @@ class Home extends Component {
     return (
       <Grid fluid>
         <Intro />
-        <Bike />
+        <Row>
+          <Col xs={12}>
+            <Row center="xs" middle="xs">
+              <Col xs={8}>
+            <Bike />
+            </Col>
+          </Row>
+          </Col>
+        </Row>
       </Grid>
     );
   }

@@ -250,6 +250,20 @@ ul{
 	-ms-transform: rotate(-30deg); /* IE 9 */
   -webkit-transform: rotate(-30deg);
 }
+.brakes{
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	position: absolute;
+	height: 25px;
+	width: 8px;
+	margin: -100px 0 0 310px;
+	-webkit-border-bottom-right-radius: 90%;
+	-moz-border-radius-bottomright: 90%;
+	border-bottom-right-radius: 90%;
+	-ms-transform: rotate(-40deg); /* IE 9 */
+  -webkit-transform: rotate(-40deg); /* Safari */
+  transform: rotate(-40deg);
+}
 
 .handlebar-curve{
 	width: 40px;

@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import Bike from './Bike';
+import Intro from './Intro';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 
 class Home extends Component {
   render() {
     return (
-      <div>
-        Danny!
+      <Grid fluid>
+        <Intro />
         <Bike />
-      </div>
+      </Grid>
     );
   }
 }

@@ -24,15 +24,15 @@ class Bike extends Component {
 					<div className="handlebar-front"></div>
 					<div className="handlebar-curve"></div>
 				</div>
-				<div className="cycle-wheel cycle-wheel-back">
+        <div className="cycle-wheel cycle-wheel-back">
 					<div className="cycle-wheel-outer">
 						<div className="cycle-wheel-inner">
 							<div className="cycle-wheel-inner-padding">
-								<ul className="spoke-container">
-									<li className="spoke"></li>
-									<li className="spoke"></li>
-								</ul>
-								<div className="inner-disc"></div>
+              <ul className="spoke-container">
+                <li className="spoke"></li>
+                <li className="spoke"></li>
+              </ul>
+                <div className="inner-disc"></div>
 								<div className="inner-disc-2"></div>
 							</div>
 						</div>

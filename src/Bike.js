@@ -21,8 +21,9 @@ class Bike extends Component {
 					<div className="center-frame"></div>
 					<div className="back-frame"></div>
 					<div className="bottom-frame"></div>
-					<div className="handlebar-front"></div>
+          <div className="handlebar-connect"></div>
 					<div className="handlebar-curve"></div>
+          <div className="brakes"></div>
 				</div>
         <div className="cycle-wheel cycle-wheel-back">
 					<div className="cycle-wheel-outer">

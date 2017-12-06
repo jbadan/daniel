@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: #FF8B00;
+  font-family: 'Roboto', sans-serif;
 }
 .Typist .Cursor--blinking {
     opacity: 1;
@@ -33,4 +34,9 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 8;
+}
+
+.route{
+  height: 50vh;
+  background: yellow;
 }

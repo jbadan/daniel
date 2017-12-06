@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Bike from './Bike';
 import Intro from './Intro';
 import About from './About';
+import Route from './Route';
+import BikeAbout from './BikeAbout';
+import Gallery from './Gallery';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 class Home extends Component {
@@ -21,7 +24,6 @@ class Home extends Component {
           </Col>
         </Row>
         <Row>
-
           <Col xs={12}>
             <Row center="xs" middle="xs">
               <Col xs={12}>
@@ -30,7 +32,9 @@ class Home extends Component {
           </Row>
           </Col>
         </Row>
-
+        <Route />
+        <BikeAbout />
+        <Gallery />
       </Grid>
     );
   }

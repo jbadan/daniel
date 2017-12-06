@@ -3,11 +3,17 @@ h3{
   font-size: 2.5em;
 }
 
+.pAbout{
+  font-size: 1.3em;
+  padding: 1px;
+}
+
 .flip-container {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
   -o-perspective: 1000;
   perspective: 1000;
+  padding: 10px;
 }
 
 	.flip-container:hover .flipper,
@@ -55,14 +61,22 @@ h3{
 }
 
 
-
-p {
+.pFront{
+  position: absolute;
+	bottom: 190px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  font-size: 1.7em;
+  line-height: 2em;
+}
+.pBack {
 	position: absolute;
 	bottom: 140px;
 	left: 0;
 	right: 0;
 	text-align: center;
 	padding: 0 20px;
-  font-family: arial;
   line-height: 2em;
 }

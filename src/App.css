@@ -17,7 +17,7 @@ body {
 
 .intro{
   background: #FF8B00;
-  height: 50vh;
+  height: 30vh;
   color: #F2FFE3;
   font-size: 4vh;
 }
@@ -25,6 +25,24 @@ body {
 .bikeRow{
   background: #FF8B00;
   height: 50vh;
+}
+
+.buttons{
+  height: 20vh;
+}
+
+button{
+  background: transparent;
+  border: 3px solid #F2FFE3;
+  color: #F2FFE3;
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 10px;
+}
+button:hover{
+  border: 3px solid black;
+  color: black;
+  cursor: pointer;
 }
 .questionCard{
   background: #F2FFE3;

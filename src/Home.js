@@ -7,6 +7,11 @@ import BikeAbout from './BikeAbout';
 import Gallery from './Gallery';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
+import{
+  BrowserRouter as Router,
+  Link
+}from 'react-router-dom';
+
 class Home extends Component {
   render() {
     return (
@@ -18,23 +23,17 @@ class Home extends Component {
           <Col xs={12}>
             <Row center="xs" className="bikeRow" middle="xs">
               <Col xs={8}>
-            <Bike />
-            </Col>
-          </Row>
+                <Bike />
+              </Col>
+            </Row>
           </Col>
         </Row>
-        <Row>
-          <Col xs={12}>
-            <Row center="xs" middle="xs">
-              <Col xs={12}>
-            <About />
+          <Row className="buttons" around="xs" center="xs">
+            <Col xs={12}>
+              <Link to="/greatdivide"><button>GREAT DIVIDE</button></Link>
+              <Link to="/crosscountry"><button>TRANSAMERICA</button></Link>
             </Col>
-          </Row>
-          </Col>
         </Row>
-        <Route />
-        <BikeAbout />
-        <Gallery />
       </Grid>
     );
   }

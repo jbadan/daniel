@@ -70,7 +70,6 @@ class Bike extends Component {
   				</div>
   			</div>
   		</div>
-      <i className="bounce fa fa-angle-double-down fa-4x" aria-hidden="true"></i>
       </div>
     );
   }
